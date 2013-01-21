@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+.BodyContainer {
+	width:100%;
+	left:auto;
+	right:auto;
+	font-size:100%;
+}
+
+a:hover {
+	color: #090;
+	font-size: 1.0em;
+}
+
+a { 
+     font-size: .9em;
+  }
+
+td { table-layout:auto;
+     left:auto;
+     right:auto;
+     text-align:center;
+     vertical-align:central;   
+}
+
+.JerrysGuitarShopTitle 
+{
+   align:center;
+    
+	left:auto;
+	right:auto;
+   font-family: "Brush Script Std", "Brush   Script MT", "Felix Titling",    "FlemishScript BT",     "Freestyle Script", Georgia;
+   font-size: 2em;
+   font-weight: bold;
+ 
+}
+
+.banner, .phoneus {
+	text-align:center;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+PageLinks {
+	font-size: 1.5em;
+	background:#90C;	
+}
+.banner {
+	font-size: 2em;
+	color: #93C;
+}
+
+.navimages  {
+	margin-left:auto;
+	margin-right:auto;
+    border-left-width:thick;
+	thickborder-right:thick;	
+}
+
+table, td {
+	align: center;
+	font-size: 34px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+.guitarDescription {
+	font-size: .7em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight:bold;	
+}
+
+.pageTitle {
+	font:Verdana, Geneva, sans-serif;
+	font-size: 2.3em;
+	font-weight:bold;
+	align:center;
+	width: auto;
+	left: auto;
+	right: auto;
+	position: relative;
+}
+.PurpleProse {
+	font-family: "Brush Script Std", "Brush Script MT", "Felix Titling", "FlemishScript BT", "Freestyle Script", Georgia;
+	font-size: 2em;
+}
+.bodyContainer form table tr td p {
+	font-size: 20px;
+}
+.bodyContainer form table tr td p {
+	font-size: 30px;
+}
+.bodyContainer form table tr td p {
+	font-size: 34px;
+}

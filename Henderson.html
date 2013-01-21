@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jerry's Guitar Epiphone Guitars</title>
+<link href="JerrysGuitarShopCSS.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="JerrysGuitarShopJavaScript.js"></script>
+<style type="text/css">
+.bodyContainer form .guitarDescription tr .guitarDescription .guitarDescription .guitarDescription .guitarDescription .guitarDescription {
+	font-size: 1px;
+}
+</style>
+  
+    <script language="javascript">
+	  function capturedetails(chosen_textBox,itemChosen, price_textBox,item_price)
+	  {                   
+		 chosen_textBox.value = itemChosen
+         price_textBox.value = item_price 
+	  }
+    </script> 
+    
+</head>
+
+<body>
+<div class="bodyContainer">
+<p align="center" class="JerrysGuitarShopTitle" ><a href="Index.html"class="JerrysGuitarShopTitle" >Jerry's Guitar Shop</a> </p>
+<p align="center">
+    <span class="pageTitle">Henderson Guitars</span>
+   
+</p>
+
+<form action="ProcessOrder.php">
+<p class = "order_details" align="center">
+  <input type="text" id="itemNameTextBox"   name="itemNameTextBox" />   &nbsp;&nbsp;
+  <input type="text" id="itemPriceTextBox"  name="itemPriceTextBox" />
+</p>
+<p align="center" class="banner">
+<table align = "center" width="90%" border="0">
+  <tr>
+    <td width="33%">
+       <img src="GuitarPhotos/Henderson/Henderson Dreadnaught.jpg" alt="Henderson Dreadnaught"
+          width="117" height="185"   id="Henderson Dreadnaught $280"/></td>
+    <td width="33%"><p>Henderson
+      Dreadnaught<br/>
+      $290</td>
+    <td width="33%">
+      <input type="button" name="btn-buyEpiphone09Tri b" id="btn-buyEpiphone09Trib"
+          value="Buy"  
+          onclick="capturedetails(itemNameTextBox,'Henderson Dreadnaught, itemPriceTextBox,        '$280.00')">                        
+    </td> 
+                                 
+
+   </tr>
+    
+   <tr> 
+    <td>
+       <img src="GuitarPhotos/Henderson/Henderson AM6954.jpg" width="149" height="185" 
+          alt="Henderson AM6954" />
+    </td>
+    <td><p>Henderson
+      AM6954<br/>
+      $490</td>
+    <td>
+       <input type="button" name="btn-buyHendersonAM6954" id= "btn-buyHendersonAM6954"
+          value="Buy" 
+          onclick="capturedetails(itemNameTextBox,'Henderson AM6954',itemPriceTextBox,'490.00')"
+       />
+    </td>
+    </tr>
+    
+      <td><img src="GuitarPhotos/Henderson/suhr henderson fiesta orange back.JPG" 
+         width="60" height="185" 
+        alt="Henderson-Suhr-Fiesta" />
+    </td>
+    <td>Henderson<br/p>
+      Fiesta<br/>
+      $900</td>
+    <td>
+      <input type="button" name="btn-buyHendersonFiesta" id= "btn-buyHendersonFiesta"
+          value="Buy" 
+         onclick="capturedetails(itemNameTextBox,'Henderson Fiesta',itemPriceTextBox,'$900.00')" 
+      />
+     </td>
+  </tr>
+  
+  <--
+
+</table>
+</p>
+</form>
+
+</br>
+
+<p align="center" class="banner">
+<a href="Index.html" title="World's Best Guitars" >Home</a> &nbsp; &nbsp;
+<a href="Best Prices.html" >Lowest Prices</a>&nbsp; &nbsp;
+<a href="Expert Service.html" >Expert Service</a>&nbsp; &nbsp;</p>
+<p align="center" class="phoneus"> 
+  <span class="phoneus><span class="banner">Phone Us at 201-123-4567</span></span> </p>
+<p class="banner">
+<a href="mailto:Jerry@www://Jerry'sGuitarShop.com">Email Us</a> &nbsp; &nbsp;
+</p>
+</div>
+</body>
+</html>

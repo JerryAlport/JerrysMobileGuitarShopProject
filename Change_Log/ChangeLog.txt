@@ -1,0 +1,21 @@
+     Change, Progress, and Problem Log
+
+
+15Jan2012  Added Fender.html display and order form for Fender Guitars
+    Just Copied Epiphone.html 
+    changed images and texts for Fender
+    Truncated table for only three currently available Fender images
+
+  Problem with the buy buttons on Fender.html calls a nonexistant
+     Javascript function which exists and works fine for Epiphone.html
+
+    First Buy button on ???.html does nothing.  Other buttons work fine.
+  First button code copied from other buttons with textual parameter changes only.
+
+19Jan2013 3pm eliminated all  html files marked PC and Mobile.
+    All remaining html files are configured for mobile.
+    There are copies of the eliminated files on drive H in ADvancedWebDevelopmentFall folder.
+
+19Jan2013 3:30pm On all html pages insured that  in all <a href = tags
+  eliminated the target="blank" parameters so that page closed
+  and page specific music stopped as we moved to another page.

@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jerry's Guitar Shop Home Page</title>
+<link href="JerrysGuitarShopCSS.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+</style>
+</head>
+
+<body>
+<p align="center" ><span class="JerrysGuitarShopTitle" >Jerry's Guitar Shop</strong></span></p>
+<p align="center" class="banner"><img src="Images2/Girl&amp;Boy-614-02074180w.jpg" alt="Jerry's Guitar Shop" name="Banner" id="Banner" /></p>
+<p align="center" class="banner">
+<a href="JerrysGuitars.html" title="World's Best Guitars" target="_blank">World's Best Guitars</a> &nbsp; &nbsp; 
+<a href="Best Prices.html" target="_blank">Lowest Prices</a>&nbsp; &nbsp; 
+<a href="Quick Delivery.html" target="_blank">Quick Delivery</a>&nbsp; &nbsp;
+<a href="Expert Service.html" target="_blank">Great Service</a> 
+</p>
+</body>
+</html>
